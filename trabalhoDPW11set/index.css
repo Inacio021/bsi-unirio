@@ -110,10 +110,18 @@
         position: relative;
     }
     
+    /* dividindo as seções do rodapé */
     .rodape .conteudo-rp{
         border: 1px solid;
-        height:200px; 
+        height:200px;
+        display: flex;
     }
+    
+    .rodape .conteudo-rp .secao-rp{
+            flex: 1;
+            padding:25px;
+            border: 1px solid white;
+        }
     
     .rodape .rpbaixo{
         background: #003366;
@@ -124,9 +132,23 @@
         position: absolute;
         bottom: 0px;
         left: 0px;
-        padding-top: 20px;
-        
+        padding-top: 20px;    
     }
+    
+    .secao-rp .h2sobre{
+        color: aliceblue;
+        font-family:serif;
+    }
+    .secao-rp .txtsobre{
+        color: aliceblue;
+        font-family:serif;
+    }
+    .secao-rp .h2A_R{
+        color: aliceblue;
+        font-family:serif;
+    }
+
+
     /* /RODAPÉ */
 
 
