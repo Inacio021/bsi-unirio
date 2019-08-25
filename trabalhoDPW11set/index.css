@@ -20,7 +20,7 @@
         .menu{
             width:100%;
             height: 50px;
-            background-color: dimgray;
+            background-color:#000066;
             font-family: arial;
         }
 
@@ -39,7 +39,7 @@
             display: block;
             text-decoration: none;
             text-align: center;
-            background-color: dimgrey;
+            background-color: #000066 ;
             color: floralwhite;
             }
 
@@ -95,12 +95,16 @@
         }
 
         #wrapper {
+            background-color:#003366;
+            text-align: center;
+            margin: 0 auto;
             min-height: 100%;
+            width: 90%;
         }   
 
     /* RODAPÉ */
     .rodape{
-        background:#333399;
+        background:#000066;
         color:black;
         height: 200px;
         position: relative;
@@ -112,7 +116,7 @@
     }
     
     .rodape .rpbaixo{
-        background:#003366;
+        background: #003366;
         color:aliceblue;
         height:40px;
         width: 100%;
@@ -161,8 +165,6 @@
                 height: auto;
                 max-height: 200px;
             }
-            
-    
     }
 
         
