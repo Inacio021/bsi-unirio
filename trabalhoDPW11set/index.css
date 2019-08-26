@@ -15,12 +15,22 @@
             margin: 0px;
             background:white;
             font-family: sans-serif;
-        }   
+        }  
+
+    a:link{
+            text-decoration: none;
+            color:azure;
+        }
+    
+    .secao-rp ul li{
+            color: white;
+        }
+        
     /* através da classe menu criada no arquivo html eu a estilizo aqui usando sua referência através de um ponto ".menu" */
         .menu{
             width:100%;
             height: 50px;
-            background-color:#000066;
+            background-color:#17408B;
             font-family: arial;
         }
 
@@ -39,7 +49,7 @@
             display: block;
             text-decoration: none;
             text-align: center;
-            background-color: #000066 ;
+            background-color: #17408B ;
             color: floralwhite;
             }
 
@@ -58,7 +68,7 @@
     
     /* aqui eu altero a cor de fundo dos itens do menu ao momento do toque do mouse */
         .menu a:hover{
-            background-color:azure;
+            background-color:#FFFFFF;
             color:black;
         }
 
@@ -71,7 +81,7 @@
         }
 
         .menu ul ul li a{
-            background-color: crimson;
+            background-color:#C9082A;
         }
 
         label[for="bt_menu"]{
@@ -104,7 +114,7 @@
 
     /* RODAPÉ */
     .rodape{
-        background:#000066;
+        background:#17408B;
         color:black;
         height: 200px;
         position: relative;
@@ -126,7 +136,7 @@
     .rodape .rpbaixo{
         background: #003366;
         color:aliceblue;
-        height:40px;
+        height:30px;
         width: 100%;
         text-align: center;
         position: absolute;
