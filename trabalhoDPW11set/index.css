@@ -18,8 +18,12 @@
             background-image:url("background2.jpg")
         }  
 
+  
+
+
+
     a:link{
-            text-decoration: none;
+            text-decoration:none;
             color:azure;
         }
     
@@ -31,7 +35,7 @@
         .menu{
             width:100%;
             height: 50px;
-            background-color:#17408B;
+            background-color:#003049;
             font-family: arial;
         }
 
@@ -50,7 +54,7 @@
             display: block;
             text-decoration: none;
             text-align: center;
-            background-color: #17408B ;
+            background-color:#003049 ;
             color: floralwhite;
             }
 
@@ -69,7 +73,7 @@
     
     /* aqui eu altero a cor de fundo dos itens do menu ao momento do toque do mouse */
         .menu a:hover{
-            background-color:#FFFFFF;
+            background-color:#EFF6EE;
             color:black;
         }
 
@@ -82,7 +86,7 @@
         }
 
         .menu ul ul li a{
-            background-color:#C9082A;
+            background-color:#DD0426;
         }
 
         label[for="bt_menu"]{
@@ -115,7 +119,7 @@
 
     /* RODAPÉ */
     .rodape{
-        background:#17408B;
+        background:#003049;
         color:black;
         height: 200px;
         position: relative;
@@ -158,7 +162,21 @@
         color: aliceblue;
         font-family:serif;
     }
+    
+    /*Cores do Link de Acesso Rápido a definir ainda */
+   
+    #acessorap: visited{
+    
+    }
+    #acessorap:active{
+        color: ;
+    }
 
+    #acessorap{
+        color: whitesmoke;
+        text-decoration: none;
+        font-family:inherit;
+    }
 
     /* /RODAPÉ */
 
