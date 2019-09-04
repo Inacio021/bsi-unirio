@@ -35,7 +35,7 @@
         .menu{
             width:100%;
             height: 50px;
-            background-color:#003049;
+            background-color:#08090A;
             font-family: arial;
         }
 
@@ -54,7 +54,7 @@
             display: block;
             text-decoration: none;
             text-align: center;
-            background-color:#003049 ;
+            background-color:#08090A ;
             color: floralwhite;
             }
 
@@ -73,7 +73,7 @@
     
     /* aqui eu altero a cor de fundo dos itens do menu ao momento do toque do mouse */
         .menu a:hover{
-            background-color:#EFF6EE;
+            background-color:#DC851F;
             color:black;
         }
 
@@ -86,7 +86,7 @@
         }
 
         .menu ul ul li a{
-            background-color:#DD0426;
+            background-color:#DC851F;
         }
 
         label[for="bt_menu"]{
@@ -110,7 +110,7 @@
         }
 
         #wrapper {
-            background-color:#003366;
+            background-color:#4C4C47;
             text-align: center;
             margin: 0 auto;
             min-height: 100%;
@@ -119,7 +119,7 @@
 
     /* RODAPÉ */
     .rodape{
-        background:#003049;
+        background:#4C4C47;
         color:black;
         height: 200px;
         position: relative;
@@ -134,12 +134,12 @@
     
     .rodape .conteudo-rp .secao-rp{
             flex: 1;
-            padding:25px;
-            border: 1px solid white;
+            padding:15px;
+            border: 0.2px solid black;
         }
     
     .rodape .rpbaixo{
-        background: #003366;
+        background: #08090A;
         color:aliceblue;
         height:30px;
         width: 100%;
@@ -147,33 +147,41 @@
         position: absolute;
         bottom: 0px;
         left: 0px;
-        padding-top: 20px;    
+        padding-top: 20px;
     }
     
     .secao-rp .h2sobre{
-        color: aliceblue;
-        font-family:serif;
+        color: #DC851F;
+        font-family:monospace;
     }
     .secao-rp .txtsobre{
         color: aliceblue;
         font-family:serif;
     }
-    .secao-rp .h2A_R{
-        color: aliceblue;
-        font-family:serif;
+    .secao-rp .h2A_R{    
+        color:#DC851F;
+        font-family: monospace;
+    }
+
+    .secao-rp ul{
+        padding-left: 15px;
     }
     
     /*Cores do Link de Acesso Rápido a definir ainda */
    
     #acessorap: visited{
-    
+        color:;
     }
     #acessorap:active{
-        color: ;
+        color:#DC851F ;
     }
 
+    #acessorap:hover{
+        color: #DC851F
+    }
     #acessorap{
-        color: whitesmoke;
+        padding-bottom: 5px;
+        color:white;
         text-decoration: none;
         font-family:inherit;
     }
