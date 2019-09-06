@@ -40,28 +40,66 @@
         
         <!-- Container do conteúdo -->
         <div id="wrapper">
-            <h1> Um questionário para os amantes de basquete! - ou nem tanto.</h1>
-                <h2> Preparamos uma enquete pra conhecermos melhor o público do nosso site, responda abaixo para participar.</h2>
+            <h1 class="formH"> Um questionário para os amantes de basquete - ou nem tanto.</h1>
+                <h2 class="formH"> Preparamos uma enquete pra conhecermos melhor o público do nosso site, responda abaixo para participar.</h2>
             
             
             <!-- Início do Formulário-->
-            <form class="pure-form pure-form-stacked">
-                <fieldset>
-                    <label class="labelform" for="nome">Nome:</label>
-                    <input id="nome" type="text" name="nome"><br>
-                    <label class="labelform" for="sobrenome"> Sobrenome:</label>
-                    <input type="text" name="sobrenome"><br>
-                    
-                    <label class="labelform" for="datanasc"> Quando você nasceu?</label>
-                    <input type="date" name="datanasc"><br>
-                    
-                    <label class="labelform" for="gosto">Você curte basquete?</label>
-                    <input type="radio" name="gosto" value="sim"> Sim <br>
-                    <input type="radio" name="gosto" value="nao"> Não, não sei o que to fazendo nesse site<br>
-                    
-                    
-                
-                </fieldset>
+            <form>
+                    <div id="infoP">
+                        <label class="labelform" for="nome">Nome:</label><br>
+                        <input id="nome" type="text" name="nome" required><br>
+                        <label class="labelform" for="sobrenome"> Sobrenome:</label><br>
+                        <input type="text" name="sobrenome" required><br>
+                        <label class="labelform" for="email">Email:</label><br>
+                        <input id="email" type="email" required><br>
+                        <label class="labelform" for="datanasc"> Quando você nasceu?</label><br>
+                        <input type="date" name="datanasc" required><br>
+                        <label class="labelform" for="genero">Você é:</label><br>
+                        <input type="radio" name="genero" value="Homem">Homem<br>
+                        <input type="radio" name="genero" value="Mulher">Mulher<br>
+                        <input type="radio" name="chance" value="Outro">Outro<br>    
+                        <label class="labelform" for="estado"> De que estado você é?</label><br>
+                        <select id="estado">
+                            <option> Rio de Janeiro</option>
+                            <option> Minas Gerais</option>
+                            <option>São Paulo</option>
+                            <option> Bahia </option>
+                            <option> Amazonas </option>
+                            <option> Pará </option>
+                            <option> Ceará </option>
+                        </select>
+                    </div>
+                    <div id="perguntas">
+                        <label class="labelform" for="gosto">Você curte basquete?</label><br>
+                        <input type="radio" name="gosto" value="Sim">Sim<br>
+                        <input type="radio" name="gosto" value="Não">Não, não sei o que to fazendo aqui.<br>
+                        <label class="labelform" for="chance">Você já teve a chance de jogar?</label><br>
+                        <input type="radio" name="chance" value="Sim"> Sim<br>
+                        <input type="radio" name="chance" value="Não"> Não<br>
+                        <label class="labelform" for="opiniao">Você acha que o Brasil tem a estrutura necessária para a prática do basquete? Nos dê sua opinião em poucas palavras abaixo:</label><br>
+                        <textarea name="opiniao" rows="10" cols="30"></textarea><br>
+                        <label class="labelform" for="timefav">Qual seu time favorito da NBA? </label><br>
+                        <select name="timefav">
+                            <option>Selecione</option>
+                            <option>New York Knicks</option>
+                            <option>Brooklyn Nets</option>
+                            <option> Philadelphia 76ers</option>
+                            <option>Cleveland Cavaliers </option>
+                            <option> Toronto Raptors</option>
+                            <option> Golden State Warriors</option>
+                            <option> Chicago Bulls</option>
+                            <option>Los Angeles Lakers</option>
+                            <option>Los Angeles Clippers</option>
+                            <option>Houston Rockets</option>
+                            <option>San Antonio Spurs</option>
+                        </select><br><br>
+                        <label class="labelform" for="termos">Termos:</label><br>
+                            <input type="radio" name="termos">Aceito receber e-mails que nunca vou ver do Matheus e Tadeu<br>
+                            <input type="radio" name="termos"> Não aceito.    
+                    </div><br> 
+                            <input id="btenviar" type="submit" value="Enviar">
+
             </form>
             
             <!-- fim do formulário -->        
@@ -92,7 +130,7 @@
                             
             </div>
             <div class="rpbaixo"> 
-                &copy; Trabalho DPW | Designed by Matheus Inácio e Tadeu Andres
+                &copy; Trabalho DPW | Designed by Matheus Inácio e Tadeu André
             </div>
         </div>
     <!--//Rodapé -->
