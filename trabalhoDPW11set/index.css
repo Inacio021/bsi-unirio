@@ -19,8 +19,7 @@
 
 
     a:link{
-            text-decoration:none;
-            color:azure;
+        text-decoration: none;
         }
             
     /* através da classe menu criada no arquivo html eu a estilizo aqui usando sua referência através de um ponto ".menu" */
@@ -98,6 +97,7 @@
         label[for="bt_menu"]{
             display: none;
         }
+    /* --------------------------- */
 
         #wrapper {
             background-color:#4C4C47;
@@ -106,23 +106,52 @@
             width: 90%;
         }   
     
-        /*css da página cultura.html */
-        #h1cultura{
+
+        
+        .h1geral{
             text-align: center;
             padding: 10px;
             color:#FF9505; 
         }
 
-        #h2cultura{
+        .h2geral{
             text-align: center;
-            padding-bottom: 25px;
+            padding: 15px;
+            color:white;
+        }
+
+        .pgeral{
+            text-align: center;
+            font-size: 20px;
+            padding: 10px;
             color:#FF9505;
         }
     
+
+        /* css index */
+
+          #h1index{
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+        
+        #objetivop{
+            color: white;
+            font-style: oblique;
+            background-color: #FF9505;
+            text-align: center;
+            font-size: 20px;
+            padding-bottom: 10px;
+            padding: 15px;
+        }
+ 
+    
+        /*css da página cultura.html */
         .h2titulo{
             margin-left: 30px;
             padding: 25px;
-            color:#FF9505;
+            color:white;
         }
         .h3top5{
             font-size: 20px;
@@ -151,6 +180,8 @@
             font-weight: normal;
             color:black;
         }
+
+    /*---------------------- */
 
 
     /* agora iremos usar uma query para responsividade do nosso menu "@media", o site mudará seu comportamento quando o viewport for menor do que 800px */
@@ -306,16 +337,16 @@
     
     /*Cores do Link de Acesso Rápido a definir ainda */
    
-    #acessorap: visited{
+    .acessorap: visited{
         color:;
     }
-    #acessorap:active{
+    .acessorap:active{
         color:#DC851F ;
     }
-    #acessorap:hover{
+    .acessorap:hover{
         color: #DC851F
     }
-    #acessorap{
+    .acessorap{
         padding-bottom: 5px;
         color:white;
         text-decoration: none;
