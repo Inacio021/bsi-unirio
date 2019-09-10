@@ -11,8 +11,6 @@
 
     html, body {
             height: 100%;
-            padding: 0px;
-            margin: 0px;
             background-image:url("background2.jpg")
         }  
 
@@ -102,18 +100,57 @@
         }
 
         #wrapper {
-            /*utilizo esses 5 primeiros comandos pra ajudar na formatação das divs internas */
-            align-items: center;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            /*  .... */
             background-color:#4C4C47;
             margin: 0 auto;
             min-height: 100%;
             width: 90%;
         }   
+    
+        /*css da página cultura.html */
+        #h1cultura{
+            text-align: center;
+            padding: 10px;
+            color:#FF9505; 
+        }
+
+        #h2cultura{
+            text-align: center;
+            padding-bottom: 25px;
+            color:#FF9505;
+        }
+    
+        .h2titulo{
+            margin-left: 30px;
+            padding: 25px;
+            color:#FF9505;
+        }
+        .h3top5{
+            font-size: 20px;
+            margin-left: 30px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            color:#FF9505;
+        }
+        .listas{
+            font-size: 20px;
+            font-weight: bold;
+            padding-bottom: 50px;
+            margin-left: 30px;
+            padding-left: 20px;
+            color:#FF9505;
+        }
+        .listacultura{
+            font-size: 20px;
+            font-weight: bold;
+            padding-bottom: 10px;
+            margin-left: 30px;
+            padding-left: 20px;
+            color:#FF9505;
+        }
+        .listacultura desc{
+            font-weight: normal;
+            color:black;
+        }
 
 
     /* agora iremos usar uma query para responsividade do nosso menu "@media", o site mudará seu comportamento quando o viewport for menor do que 800px */
