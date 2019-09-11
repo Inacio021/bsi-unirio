@@ -120,6 +120,14 @@
             color:white;
         }
 
+        .h3geral{
+            font-size: 20px;
+            margin-left: 30px;
+            padding-bottom: 20px;
+            padding-left: 30px;
+            color:#FF9505;
+        }
+
         .pgeral{
             text-align: center;
             font-size: 20px;
@@ -146,35 +154,59 @@
             padding: 15px;
         }
  
+        /* css da página de equipamentos */
+
+        .equipdl{
+            font-size: 20px;
+            padding:20px;
+            text-align: center;
+        }
+
+         .equipdl dt{
+            padding: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            color:#FF9505;
+        }
     
+        .equipdl dd{
+            padding: 10px;
+            color:snow;
+        }
+
+        .imggeral{
+            padding: 5px;
+            border: 1px solid white;
+            border-radius: 4px;
+            width: 350px;
+            height: auto;
+        }
+        
         /*css da página cultura.html */
         .h2titulo{
             margin-left: 30px;
             padding: 25px;
             color:white;
         }
-        .h3top5{
-            font-size: 20px;
-            margin-left: 30px;
-            padding-bottom: 20px;
-            padding-left: 30px;
-            color:#FF9505;
-        }
+
         .listas{
-            font-size: 20px;
-            font-weight: bold;
+            font-size: 20px; 
             padding-bottom: 50px;
             margin-left: 30px;
             padding-left: 20px;
             color:#FF9505;
         }
-        .listacultura{
+
+        .listas dd{
+            padding: 10px;
+            color: white;
+        }
+        .listas li{
             font-size: 20px;
-            font-weight: bold;
             padding-bottom: 10px;
             margin-left: 30px;
             padding-left: 20px;
-            color:#FF9505;
+            color:white;
         }
         .listacultura desc{
             font-weight: normal;
@@ -183,6 +215,21 @@
 
     /*---------------------- */
 
+    /* css pesquisa */
+        #tabela{
+          font-size: 20px;
+            padding-bottom: 10px;
+            margin-left: 30px;
+            padding-left: 20px;
+        }
+        
+        #tabela th, td{
+            background-color: whitesmoke;
+            border:1px solid white;
+            text-align: center;
+            padding: 5px;
+        }
+    /* /css pesquisa */
 
     /* agora iremos usar uma query para responsividade do nosso menu "@media", o site mudará seu comportamento quando o viewport for menor do que 800px */
         @media(max-width:800px) {
@@ -322,7 +369,8 @@
         color: aliceblue;
         font-family:serif;
     }
-    .secao-rp .h2A_R{    
+    .secao-rp .h2A_R{
+        padding: 10px;
         color:#DC851F;
         font-family: monospace;
     }
@@ -335,13 +383,13 @@
             color: white;
     }
     
-    /*Cores do Link de Acesso Rápido a definir ainda */
+    /*Cores do Link de Acesso Rápido */
    
     .acessorap: visited{
-        color:;
+        color: darkred;
     }
     .acessorap:active{
-        color:#DC851F ;
+        color:darkred;
     }
     .acessorap:hover{
         color: #DC851F
