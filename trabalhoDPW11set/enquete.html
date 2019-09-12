@@ -48,18 +48,18 @@
             <form>
                     <div id="infoP">
                         <label class="labelform" for="nome">Nome:</label><br>
-                        <input id="nome" type="text" name="nome" required><br>
+                        <input type="text" id="nome" required><br>
                         <label class="labelform" for="sobrenome"> Sobrenome:</label><br>
-                        <input type="text" name="sobrenome" required><br>
+                        <input type="text" id="sobrenome" required><br>
                         <label class="labelform" for="email">Email:</label><br>
                         <input id="email" type="email" required><br>
-                        <label class="labelform" for="datanasc"> Quando você nasceu?</label><br>
+                        <label class="labelform" > Quando você nasceu?</label><br>
                         <input type="date" name="datanasc" required><br>
-                        <label class="labelform" for="genero">Você é:</label><br>
+                        <label class="labelform" >Você é:</label><br>
                         <input type="radio" name="genero" value="Homem">Homem<br>
                         <input type="radio" name="genero" value="Mulher">Mulher<br>
                         <input type="radio" name="chance" value="Outro">Outro<br>    
-                        <label class="labelform" for="estado"> De que estado você é?</label><br>
+                        <label class="labelform" > De que estado você é?</label><br>
                         <select id="estado">
                             <option> Rio de Janeiro</option>
                             <option> Minas Gerais</option>
@@ -71,16 +71,16 @@
                         </select>
                     </div>
                     <div id="perguntas">
-                        <label class="labelform" for="gosto">Você curte basquete?</label><br>
-                        <input type="radio" name="gosto" value="Sim">Sim<br>
-                        <input type="radio" name="gosto" value="Não">Não, não sei o que to fazendo aqui.<br>
-                        <label class="labelform" for="chance">Você já teve a chance de jogar?</label><br>
-                        <input type="radio" name="chance" value="Sim"> Sim<br>
-                        <input type="radio" name="chance" value="Não"> Não<br>
-                        <label class="labelform" for="opiniao">Você acha que o Brasil tem a estrutura necessária para a prática do basquete? Nos dê sua opinião em poucas palavras abaixo:</label><br>
+                        <label class="labelform">Você curte basquete?</label><br>
+                        <input type="radio" value="Sim">Sim<br>
+                        <input type="radio" value="Não">Não, não sei o que to fazendo aqui.<br>
+                        <label class="labelform" >Você já teve a chance de jogar?</label><br>
+                        <input type="radio" value="Sim"> Sim<br>
+                        <input type="radio"  value="Não"> Não<br>
+                        <label class="labelform">Você acha que o Brasil tem a estrutura necessária para a prática do basquete? Nos dê sua opinião em poucas palavras abaixo:</label><br>
                         <textarea name="opiniao" rows="10" cols="30"></textarea><br>
-                        <label class="labelform" for="timefav">Qual seu time favorito da NBA? </label><br>
-                        <select name="timefav">
+                        <label class="labelform" >Qual seu time favorito da NBA? </label><br>
+                        <select>
                             <option>Selecione</option>
                             <option>New York Knicks</option>
                             <option>Brooklyn Nets</option>
@@ -94,14 +94,14 @@
                             <option>Houston Rockets</option>
                             <option>San Antonio Spurs</option>
                         </select><br><br>
-                        <label class="labelform" for="equipamentos">Marque aqui qual desses abaixo NÃO é um equipamento de basquete:</label><br>
-                            <input type="checkbox" name="equipamentos">Bola de Basquete<br>
-                            <input type="checkbox" name="equipamentos">Tabela e Aro<br>
-                            <input type="checkbox" name="equipamentos">Chuteira<br>
-                            <input type="checkbox" name="equipamentos">Sleeve<br>
-                        <label class="labelform" for="termos">Termos:</label><br>
-                            <input type="radio" name="termos">Aceito receber e-mails que nunca vou ver do Matheus e Tadeu<br>
-                            <input type="radio" name="termos"> Não aceito.    
+                        <label class="labelform">Marque aqui qual desses abaixo NÃO é um equipamento de basquete:</label><br>
+                            <input type="checkbox" >Bola de Basquete<br>
+                            <input type="checkbox" >Tabela e Aro<br>
+                            <input type="checkbox" >Chuteira<br>
+                            <input type="checkbox" >Sleeve<br>
+                        <label class="labelform" >Termos:</label><br>
+                            <input type="radio" >Aceito receber e-mails que nunca vou ver do Matheus e Tadeu<br>
+                            <input type="radio" > Não aceito.    
                     </div><br> 
                             <input id="btenviar" type="submit" value="Enviar">
 
