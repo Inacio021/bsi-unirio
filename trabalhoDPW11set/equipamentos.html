@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+
+<html lang="pt">
+
+    <head>
+                <title>basketball</title>
+                <meta charset="utf-8">
+
+            <!--essa tag meta é uma das tags padrão de responsividade, ou seja, nosso site ser responsivo em todos os dispositivos -->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!--Como estamos fazendo o css em um arquivo separado precisamos referenciá-lo aqui com essa tag link -->
+                <link rel ="stylesheet" href="index.css">
+    </head>
+
+    <body>
+
+        <!-- agora estamos trabalhando na responsividade do nosso menu através da criação de uma checkbox. bt = botão -->
+
+        <input type="checkbox" id="bt_menu">
+        <label for="bt_menu"> &#9776;</label>
+
+
+        <!-- essa tag nav serve pra agrupar links de NAVegação, nesse caso, nosso menu -->
+        <nav class = "menu">
+
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                 <li><a href= "cultura.html" target="_blank">Cultura</a>
+                     <ul>
+                        <li><a href="cultura.html#filmes">Filmes</a></li>
+                        <li><a href="cultura.html#livros">Livros</a></li>
+                        <li><a href="cultura.html#musica">Música</a></li>
+                    </ul>
+                </li>
+                <li><a href="pesquisa.html" target="_blank">Pesquisa</a></li>
+                <li><a href="equipamentos.html">Equipamentos</a></li>
+                <li><a href="enquete.html">Enquete</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Container do conteúdo -->
+        <div id="wrapper">
+            
+                <h1 class="h1geral"> Equipamentos </h1>
+                <dl class="equipdl">
+                <dt>Bola</dt>
+                  <dd>A bola obviamente fundamental nesse esporte, já que o objetivo do jogo é acertar-la na cesta.Além disso existe uma bola específica para esse esporte, já que ela é maior,mais pesada e 'quica' mais que qualquer bola de outro esporte.</dd>
+                    <dd><img src="../trabalhoDPW11set/Imagens/bola.jpg" alt="bolabasquete" class="imggeral"></dd>
+                <dt>Garrafão</dt>
+                  <dd> A garrafão é a meta do jogo, na NBA mede 3,1m de altura e o aro, acoplado no garrafão, da cesta mede 45cm de diametro.</dd>
+                    <dd><img src="../trabalhoDPW11set/Imagens/garrafao.jpg" alt="garrafao" class="imggeral"></dd>
+                <dt>Quadra</dt>
+                   <dd>A quadra está diretamente ligada quantidade de pontos que vale cada arremesso, isso porque ela possui divisórias que são baseadas na distância do aro, quanto mais distante mais pontos, distâncias que vão até 7 metros  e os pontos de 1 a 3.</dd>
+                    <dd><img src="../trabalhoDPW11set/Imagens/quadra.jpg" alt="quadra" class="imggeral"></dd>
+            </dl><br>
+            
+            <p class="pgeral"> Existem equipamentos que são opcionais, ou seja não são totalmente necessários para fazer essa atividade. É claro que uns são bons que se tenha na partida, mas mesmo assim não são fundamentais. São eles:</p>
+            
+                <dl class="equipdl">
+                    <dt>Tênis</dt>
+                        <dd>Existem varías marcas e opções para uso, inclusive existem linhas de jogadores.Eles são bons para evitar alguns tipos de lesões e deixar a partida mais agradével.</dd>
+                        <dd><img src="../trabalhoDPW11set/Imagens/tenis.jpg" alt="tenis" class="imggeral"></dd>
+                
+                    <dt>Sleeve</dt>
+                        <dd>Originalmente criado para proteger o cotovelo do jogador Allen Iverson, que tinha acabado de operar.Mas como ele era um atleta muito influente na época, acabou virando moda, sendo possível até colocar na perna atualmente.</dd>
+                            <dd><img src="../trabalhoDPW11set/Imagens/sleeve.jpg" alt="sleeve" class="imggeral"></dd>
+                    <dt>Camisa/Short térmicos</dt>
+                        <dd>Deixam a temperatura do corpo agradável e também seco, são usados por alguns dos jogadores.</dd>
+                            <dd><img src="../trabalhoDPW11set/Imagens/camisat.jpg" alt="camisatermica" class="imggeral"></dd>
+            
+                </dl>
+        </div>
+
+        
+    
+    <!--Rodapé -->
+        <div class="rodape">
+            <div class="conteudo-rp">
+                
+                <div class="secao-rp sobre">
+                    <h2 class="h2sobre"><span>Sobre:</span></h2>
+                    <p class="txtsobre">Trabalho desenvolvido pelos Alunos de BSI - UNIRIO Matheus Inácio e Tadeu André. A Proposta do trabalho era desenvolver um site baseado em um hobby e nós decidimos escolher o basquete porque é um gosto que temos em comum. </p>
+                </div>
+                
+                
+                <!-- Seção de links de acesso rápido no rodapé-->
+                <div class="secao-rp link">
+                    <h2 class = "h2A_R">Acesso Rápido</h2>
+                        <ul> 
+                            <li><a class="acessorap" target="_blank" href="cultura.html">Cultura</a></li>
+                            <li><a class="acessorap" target="_blank"  href="pesquisa.html">Pesquisa</a></li> 
+                            <li><a class="acessorap"  href="equipamentos.html">Equipamentos</a></li>
+                            <li><a class="acessorap"  href="enquete.html">Enquete</a></li>
+                        </ul>       
+                </div>
+                
+                
+                
+            </div>
+            <div class="rpbaixo"> 
+                &copy; Trabalho DPW | Designed by Matheus Inácio e Tadeu Andres
+            </div>
+        </div>
+    <!--//Rodapé -->
+
+    </body>
+</html>

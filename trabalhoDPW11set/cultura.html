@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+
+<html lang="pt">
+
+    <head>
+                <title>basketball</title>
+                <meta charset="utf-8">
+
+            <!--essa tag meta é uma das tags padrão de responsividade, ou seja, nosso site ser responsivo em todos os dispositivos -->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!--Como estamos fazendo o css em um arquivo separado precisamos referenciá-lo aqui com essa tag link -->
+                <link rel ="stylesheet" href="index.css">
+    </head>
+
+    <body>
+
+        <!-- agora estamos trabalhando na responsividade do nosso menu através da criação de uma checkbox. bt = botão -->
+
+        <input type="checkbox" id="bt_menu">
+        <label for="bt_menu"> &#9776;</label>
+
+
+        <!-- essa tag nav serve pra agrupar links de NAVegação, nesse caso, nosso menu -->
+        <nav class = "menu">
+
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                 <li><a href= "cultura.html" target="_blank">Cultura</a>
+                     <ul>
+                        <li><a href="#filmes">Filmes</a></li>
+                        <li><a href="#livros">Livros</a></li>
+                        <li><a href="#musica">Música</a></li>
+                    </ul>
+                </li>
+                <li><a href="pesquisa.html" target="_blank">Pesquisa</a></li>
+                <li><a href="equipamentos.html">Equipamentos</a></li>
+                <li><a href="enquete.html">Enquete</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Container do conteúdo -->
+        <div id="wrapper">
+             <h1 class="h1geral">Cultura do Basquete</h1><br>
+            <h2 class="h2geral">Aqui nós vamos exibir um pouco da cultura do basquete através de livros, filmes e música</h2><br>
+            <h2 id="filmes" class="h2titulo">Filmes</h2>
+            <h3 class="h3geral">Top 5 filmes de basquete</h3>
+            <ul class="listas">
+                <li>He got game: A jogada decisiva</li>
+                    <li><img src="../trabalhoDPW11set/Imagens/hegot.jpg" alt="a jogada decisiva" class="imggeral"></li>
+                <li>Eddie, A treinadora</li>
+                    <li><img src="../trabalhoDPW11set/Imagens/eddie.jpg" alt="eddie a treinadora" class="imggeral"> </li>
+                <li>Homens Brancos não sabem enterrar</li>
+                    <li><img src="../trabalhoDPW11set/Imagens/white.jpg" alt="homens brancos nao sabem enterrar" class="imggeral"></li>
+                <li>Coach Carter, treino para a vida</li>
+                     <li><img src="../trabalhoDPW11set/Imagens/Coach_Carter.jpg" alt="coach carter" class="imggeral"></li>
+                <li>Space Jam: O jogo do século</li>
+                    <li><img src="../trabalhoDPW11set/Imagens/spacejam.jpeg" alt="space jam" class="imggeral"></li>
+            </ul>
+            
+            <h2  id="livros" class="h2titulo">Livros</h2>
+            <dl class="listas">
+                <dt>Kobe Bryant - The Mamba Mentality </dt>
+                    <dd>Depois que deixou as quadras, Kobe Bryant já conquistou um Oscar pelo curta-metragem Dear Basketball. Bem-sucedido também no cinema, o ídolo do Los Angeles Lakers inicia sua trajetória na literatura com The Mamba Mentality.</dd>
+                <dt>Onze Anéis: A alma do sucesso</dt>
+                    <dd>Na história da NBA, nenhum treinador foi tão vitorioso quanto Phil Jackson. O nome do livro é uma referência aos 11 anéis conquistados pelo ex-técnico de Chicago Bulls e Los Angeles Lakers na maior liga de basquete do mundo — é tradição nos Estados Unidos premiar os campeões com anéis em vez de medalhas.</dd>
+                <dt>Oscar Schmidt: 14 Motivos Para Viver, Vencer e Ser Feliz</dt>
+                    <dd>O livro 14 motivos para viver, vencer e ser feliz mostra cada passo dado para por Oscar Schmidt para alcançar várias conquistas e se tornar o maior cestinha da história do basquete.</dd>
+                <dt> The Jordan Rules: The Inside Story of Michael Jordan and the Chicago Bulls</dt>
+                    <dd>The Jordan Rules: The Inside Story de uma temporada turbulenta com Michael Jordan e Chicago Bulls é um livro de 1992 escrito por Sam Smith, narrando a temporada de campeonatos do Chicago Bulls de 1990-91.</dd>
+            </dl>
+            
+            <h2 id="musica" class="h2titulo">Música</h2>
+            <h3 class="h3geral"> Músicas retiradas da playlist no spotify "As 10 inesquecíveis músicas que marcaram a NBA"</h3>
+            <ol class="listas">
+                <li>Jam - Michael Jackson</li>
+                <li>Space Jam - Quad City DJ's</li>
+                <li>Let's Get It Started - Black Eyed Peas</li>
+                <li> Shoot Pass Slam - Shaquille O'Neal</li>
+                <li>Are you ready to fly - Rozalla</li>
+                <li>A kind of Magic - Queen</li>
+                <li>Battle Scars - Lupe Fiasco</li>
+                <li> Winner - Jamie Foxx</li>
+                <li>Can't Stop</li>
+                <li>Worth It</li>
+            </ol>
+        </div>
+
+        
+    
+    <!--Rodapé -->
+        <div class="rodape">
+            <div class="conteudo-rp">
+                
+                <div class="secao-rp sobre">
+                    <h2 class="h2sobre"><span>Sobre:</span></h2>
+                    <p class="txtsobre">Trabalho desenvolvido pelos Alunos de BSI - UNIRIO Matheus Inácio e Tadeu André. A Proposta do trabalho era desenvolver um site baseado em um hobby e nós decidimos escolher o basquete porque é um gosto que temos em comum. </p>
+                </div>
+                
+                
+                <!-- Seção de links de acesso rápido no rodapé-->
+                <div class="secao-rp link">
+                    <h2 class = "h2A_R">Acesso Rápido</h2>
+                        <ul> 
+                            <li><a class="acessorap" target="_blank" href="cultura.html">Cultura</a></li>
+                            <li><a class="acessorap" target="_blank"  href="pesquisa.html">Pesquisa</a></li>
+                            <li><a class="acessorap"  href="equipamentos.html">Equipamentos</a></li>
+                            <li><a class="acessorap"  href="enquete.html">Enquete</a></li>
+                        </ul>       
+                </div>
+                
+                
+                
+            </div>
+            <div class="rpbaixo"> 
+                &copy; Trabalho DPW | Designed by Matheus Inácio e Tadeu Andres
+            </div>
+        </div>
+    <!--//Rodapé -->
+
+    </body>
+</html>

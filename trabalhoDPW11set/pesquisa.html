@@ -1,0 +1,129 @@
+<!DOCTYPE html> 
+
+<html lang="pt">
+
+    <head>
+                <title>basketball</title>
+                <meta charset="utf-8">
+
+            <!--essa tag meta é uma das tags padrão de responsividade, ou seja, nosso site ser responsivo em todos os dispositivos -->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!--Como estamos fazendo o css em um arquivo separado precisamos referenciá-lo aqui com essa tag link -->
+                <link rel ="stylesheet" href="index.css">
+    </head>
+
+    <body>
+
+        <!-- agora estamos trabalhando na responsividade do nosso menu através da criação de uma checkbox. bt = botão -->
+
+        <input type="checkbox" id="bt_menu">
+        <label for="bt_menu"> &#9776;</label>
+
+
+        <!-- essa tag nav serve pra agrupar links de NAVegação, nesse caso, nosso menu -->
+        <nav class = "menu">
+
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                 <li><a href= "cultura.html" target="_blank">Cultura</a>
+                     <ul>
+                        <li><a href="cultura.html#filmes">Filmes</a></li>
+                        <li><a href="cultura.html#livros">Livros</a></li>
+                        <li><a href="cultura.html#musica">Música</a></li>
+                    </ul>
+                </li>
+                <li><a href="pesquisa.html" target="_blank">Pesquisa</a></li>
+                <li><a href="equipamentos.html">Equipamentos</a></li>
+                <li><a href="enquete.html">Enquete</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Container do conteúdo -->
+        <div id="wrapper">
+            <h1 class="h1geral">Pesquisa</h1>
+            <h2 class="h2geral"> Aqui nessa página iremos deixar links de diversos sites que falam um pouquinho sobre basquete para quem quiser pesquisar mais a fundo.</h2>
+            <h3 class="h3geral">Links:</h3>
+            <ul class="listas">
+                <li> Wikipedia: <a class="acessorap" target="_blank" href="https://pt.wikipedia.org/wiki/Basquetebol">Basquetebol Wiki</a> </li>
+                <li> ESPN: <a class="acessorap" target="_blank" href="https://www.espn.com.br/nba/"> NBA na ESPN</a></li>
+                <li> Regras do Esporte: <a class="acessorap" target="_blank" href="https://regrasdoesporte.com.br/regras-do-basquete-da-fiba-e-nba-fundamentos-quadra-e-historia.html"> FIBA e NBA</a></li>
+                <li>NBA: <a class="acessorap" target="_blank" href="https://www.nba.com/#/"> NBA official site</a></li>
+                <li>NBA Wiki:<a class="acessorap" target="_blank" href="https://pt.wikipedia.org/wiki/National_Basketball_Association"> Wiki da NBA </a></li>
+                <li>Michael Jordan: <a class="acessorap" target="_blank" href="https://pt.wikipedia.org/wiki/Michael_Jordan">Wiki Michael Jordan </a></li>
+                <li> Oscar Schimidt:<a class="acessorap" target="_blank" href="https://pt.wikipedia.org/wiki/Oscar_Schmidt"> Maior cestinha da história</a></li>
+            </ul>
+            
+            <h2 class="h2geral"> Apenas por curiosidade, iremos mostrar uma tabela com a classificação dos times da temporada passada</h2>
+                <table id="tabela">
+                    <tr>
+                        <th>Times</th>
+                        <th>Vitórias</th>
+                        <th> Derrotas</th>
+                    </tr>
+                    <tr>
+                        <td>Toronto Raptors</td>
+                        <td>58</td>
+                        <td>24</td>
+                    </tr>
+                    <tr>
+                        <td>Philadelphia 76ers</td>
+                        <td>51</td>
+                        <td>31</td>
+                    </tr>
+                    <tr>
+                        <td>Boston Celtics</td>
+                        <td>49</td>
+                        <td>33</td>
+                    </tr>
+                    <tr>
+                        <td>Brooklyn Nets</td>
+                        <td>42</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>New York Knicks</td>
+                        <td>17</td>
+                        <td>65</td>
+                    </tr>
+
+                    
+                </table>
+                
+            
+        </div>
+
+        
+    
+    <!--Rodapé -->
+        <div class="rodape">
+            <div class="conteudo-rp">
+                
+                <div class="secao-rp sobre">
+                    <h2 class="h2sobre"><span>Sobre:</span></h2>
+                    <p class="txtsobre">Trabalho desenvolvido pelos Alunos de BSI - UNIRIO Matheus Inácio e Tadeu André. A Proposta do trabalho era desenvolver um site baseado em um hobby e nós decidimos escolher o basquete porque é um gosto que temos em comum. </p>
+                </div>
+                
+                
+                <!-- Seção de links de acesso rápido no rodapé-->
+                <div class="secao-rp link">
+                    <h2 class = "h2A_R">Acesso Rápido</h2>
+                        <ul> 
+                            <li><a class="acessorap" target="_blank" href="cultura.html">Cultura</a></li>
+                            <li><a class="acessorap" target="_blank"  href="pesquisa.html">Pesquisa</a></li> 
+                            <li><a class="acessorap"  href="equipamentos.html">Equipamentos</a></li>
+                            <li><a class="acessorap"  href="enquete.html">Enquete</a></li>
+                        </ul>       
+                </div>
+                
+                
+                
+            </div>
+            <div class="rpbaixo"> 
+                &copy; Trabalho DPW | Designed by Matheus Inácio e Tadeu Andres
+            </div>
+        </div>
+    <!--//Rodapé -->
+
+    </body>
+</html>

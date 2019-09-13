@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+
+<html lang="pt">
+
+    <head>
+                <title>basketball</title>
+                <meta charset="utf-8">
+
+            <!--essa tag meta é uma das tags padrão de responsividade, ou seja, nosso site ser responsivo em todos os dispositivos -->
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!--Como estamos fazendo o css em um arquivo separado precisamos referenciá-lo aqui com essa tag link -->
+                <link rel ="stylesheet" href="index.css">
+    </head>
+
+    <body>
+
+        <!-- agora estamos trabalhando na responsividade do nosso menu através da criação de uma checkbox. bt = botão -->
+
+        <input type="checkbox" id="bt_menu">
+        <label for="bt_menu"> &#9776;</label>
+
+
+        <!-- essa tag nav serve pra agrupar links de NAVegação, nesse caso, nosso menu -->
+        <nav class = "menu">
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href= "cultura.html" target="_blank">Cultura</a>
+                    <ul>
+                        <li><a href="cultura.html#filmes">Filmes</a></li>
+                        <li><a href="cultura.html#livros">Livros</a></li>
+                        <li><a href="cultura.html#musica">Música</a></li>
+                    </ul>
+                </li>
+                <li><a href="pesquisa.html" target="_blank">Pesquisa</a></li>
+                <li><a href="equipamentos.html">Equipamentos</a></li>
+                <li><a href="enquete.html">Enquete</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Container do conteúdo -->
+        <div id="wrapper">
+            <h1 class="formH"> Um questionário para os amantes de basquete - ou nem tanto.</h1>
+                <h2 class="formH"> Preparamos uma enquete pra conhecermos melhor o público do nosso site, responda abaixo para participar.</h2>
+            
+            
+            <!-- Início do Formulário-->
+            <form>
+                    <div id="infoP">
+                        <label class="labelform" for="nome">Nome:</label><br>
+                        <input type="text" id="nome" required><br>
+                        <label class="labelform" for="sobrenome"> Sobrenome:</label><br>
+                        <input type="text" id="sobrenome" required><br>
+                        <label class="labelform" for="email">Email:</label><br>
+                        <input id="email" type="email" required><br>
+                        <label class="labelform" > Quando você nasceu?</label><br>
+                        <input type="date" name="datanasc" required><br>
+                        <label class="labelform" >Você é:</label><br>
+                        <input type="radio" name="genero" value="Homem">Homem<br>
+                        <input type="radio" name="genero" value="Mulher">Mulher<br>
+                        <input type="radio" name="chance" value="Outro">Outro<br>    
+                        <label class="labelform" > De que estado você é?</label><br>
+                        <select id="estado">
+                            <option> Rio de Janeiro</option>
+                            <option> Minas Gerais</option>
+                            <option>São Paulo</option>
+                            <option> Bahia </option>
+                            <option> Amazonas </option>
+                            <option> Pará </option>
+                            <option> Ceará </option>
+                        </select>
+                    </div>
+                    <div id="perguntas">
+                        <label class="labelform">Você curte basquete?</label><br>
+                        <input type="radio" value="Sim">Sim<br>
+                        <input type="radio" value="Não">Não, não sei o que to fazendo aqui.<br>
+                        <label class="labelform" >Você já teve a chance de jogar?</label><br>
+                        <input type="radio" value="Sim"> Sim<br>
+                        <input type="radio"  value="Não"> Não<br>
+                        <label class="labelform">Você acha que o Brasil tem a estrutura necessária para a prática do basquete? Nos dê sua opinião em poucas palavras abaixo:</label><br>
+                        <textarea name="opiniao" rows="10" cols="30"></textarea><br>
+                        <label class="labelform" >Qual seu time favorito da NBA? </label><br>
+                        <select>
+                            <option>Selecione</option>
+                            <option>New York Knicks</option>
+                            <option>Brooklyn Nets</option>
+                            <option> Philadelphia 76ers</option>
+                            <option>Cleveland Cavaliers </option>
+                            <option> Toronto Raptors</option>
+                            <option> Golden State Warriors</option>
+                            <option> Chicago Bulls</option>
+                            <option>Los Angeles Lakers</option>
+                            <option>Los Angeles Clippers</option>
+                            <option>Houston Rockets</option>
+                            <option>San Antonio Spurs</option>
+                        </select><br><br>
+                        <label class="labelform">Marque aqui qual desses abaixo NÃO é um equipamento de basquete:</label><br>
+                            <input type="checkbox" >Bola de Basquete<br>
+                            <input type="checkbox" >Tabela e Aro<br>
+                            <input type="checkbox" >Chuteira<br>
+                            <input type="checkbox" >Sleeve<br>
+                        <label class="labelform" >Termos:</label><br>
+                            <input type="radio" >Aceito receber e-mails que nunca vou ver do Matheus e Tadeu<br>
+                            <input type="radio" > Não aceito.    
+                    </div><br> 
+                            <input id="btenviar" type="submit" value="Enviar">
+
+            </form>
+            
+            <!-- fim do formulário -->        
+        </div>
+
+        
+    
+    <!--Rodapé -->
+        <div class="rodape">
+            <div class="conteudo-rp">
+                
+                <div class="secao-rp sobre">
+                    <h2 class="h2sobre"><span>Sobre:</span></h2>
+                    <p class="txtsobre">Trabalho desenvolvido pelos Alunos de BSI - UNIRIO Matheus Inácio e Tadeu André. A Proposta do trabalho era desenvolver um site baseado em um hobby e nós decidimos escolher o basquete porque é um gosto que temos em comum. </p>
+                </div>
+                
+                
+                <!-- Seção de links de acesso rápido no rodapé-->
+                <div class="secao-rp link">
+                    <h2 class = "h2A_R">Acesso Rápido</h2>
+                        <ul> 
+                            <li><a class="acessorap" target="_blank" href="cultura.html">Cultura</a></li>
+                            <li><a class="acessorap" target="_blank"  href="pesquisa.html">Pesquisa</a></li> 
+                            <li><a class="acessorap"  href="equipamentos.html">Equipamentos</a></li>
+                            <li><a class="acessorap"  href="enquete.html">Enquete</a></li>
+                        </ul>       
+                </div>
+                            
+            </div>
+            <div class="rpbaixo"> 
+                &copy; Trabalho DPW | Designed by Matheus Inácio e Tadeu André
+            </div>
+        </div>
+    <!--//Rodapé -->
+
+    </body>
+</html>
