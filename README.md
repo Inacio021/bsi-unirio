@@ -1,5 +1,5 @@
-# bsi-unirio
+# dpwT1
 
 Matheus Inácio
 
-Repositório que um aluno de BSI utiliza pra fazer seus trabalhos
+Primeiro trabalho de desenvolvimento de páginas web
